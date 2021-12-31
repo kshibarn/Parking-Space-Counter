@@ -38,7 +38,7 @@ def checkParkingSpace(imgProc):
                            offset=0, colorR=color)  # Putting Values inside box
 
         cvzone.putTextRect(img, f'Free: {spaceCounter}/{len(posList)}', (100, 50), scale=3,
-                           thickness=5, offset=20, colorR=(118, 206, 214))
+                           thickness=5, offset=20, colorR=(118, 206, 214), colorT=(0, 0, 0))
 
 
 while True:
